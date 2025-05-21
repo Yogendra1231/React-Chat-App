@@ -1,14 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
 
+const App = () => {
+  return (
+    <div className="container">app</div>
+  )
+}
 
-
-const Child = ()=>(
-    <h1>hello world</h1>
-);
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-
-root.render(<Child/>);
+export default App;
